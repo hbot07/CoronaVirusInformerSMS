@@ -6,6 +6,5 @@ public class Scheduler {
             System.exit(0);
         }
         SmsSender.send(message);
-        System.exit(0);
     }
 }
