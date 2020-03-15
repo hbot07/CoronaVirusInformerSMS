@@ -14,7 +14,7 @@ public class Main {
         int i=0;
         while(!(s=in.readLine()).contains("India")) {
         }
-        System.out.println("How frequesntly do you want to recieve the updates? Enter delay between two updates(in hours)");
+        System.out.println("How frequently do you want to receive the updates? Enter delay between two updates(in hours)");
         int delay=sc.nextInt();
         while(true)
             Scheduler.main("Number of confirmed cases in India: "+s.substring(s.lastIndexOf(",")+1),delay);
